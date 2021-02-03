@@ -1,0 +1,56 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	
+	font-family: Times New Roman,serif;
+	background-image: url(img/hmpge.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.title
+{
+	font-family: Times New Roman, serif;
+	padding: 50px 40px;
+	font-size: 100px;
+	color: #800000;
+}
+.nav
+{
+	font-size: 20px;
+	display: block;
+	padding: 0px 30px;
+}
+ul
+{
+	list-style-type: none;
+	width: 200px;
+}
+li a
+{
+	padding: 10px 20px;
+	font-weight: bold;
+	display: block;
+	color:#800000;
+	text-decoration: none;
+}
+li a:hover
+{
+	font-size: 30px;
+}
+.background
+{
+	position: absolute;
+	bottom: 0px;
+	right: 50px;
+	
+}
+.background:hover
+{
+	transform: scaleX(-1);
+}
